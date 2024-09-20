@@ -1,0 +1,29 @@
+.consult-btn{
+    background-color: #e84949;
+    padding: 0.8rem 2.3rem;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    position: relative;
+    z-index: 1;
+   
+ }
+
+ .consult-btn::before{
+   content: "";
+   background-color: #1f1f1f;
+   position: absolute;
+   border-radius: 6px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   transform: scaleX(0);
+   transform-origin: left;
+   transition: transform 0.8s ;
+   z-index: -1;
+}
+
+.consult-btn:hover::before{
+   transform: scaleX(1);
+}
