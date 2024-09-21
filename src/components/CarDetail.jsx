@@ -113,8 +113,8 @@ const CarDetail = () => {
 
         
         {/* pros and cons */}
-        <div className='flex-nowrap md:flex md:space-x-16 justify-center mt-10 mb-10'>
-          <div className='md:w-[40%] p-2 rounded-xl bg-green-100  shadow-slate-300 shadow-sm mb-5'>
+        <div className='flex-nowrap md:flex md:space-x-16 justify-center mt-10 mb-10 '>
+          <div className='md:w-[40%] p-2 rounded-xl bg-green-100  shadow-slate-300 shadow-sm '>
               <div className='flex space-x-3 items-center text-lg font-semibold pb-2'>
                 <BiLike className='text-green-500'/>
                 <p>Things we Like</p>
